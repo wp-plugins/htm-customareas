@@ -1,0 +1,169 @@
+/* 
+* Area Selector
+*/
+i.htmlcas-own-icon{
+	background-image: url('customarea.png');	
+}
+#htmcas_ajaxsearch{
+	overflow:hidden;
+	padding:8px 16px 8px 16px;
+        min-height:90%;
+        position:relative;
+        
+}
+#htmcas_ajaxsearch .htmcas_searchdiv{
+    padding-bottom:1rem;
+}
+#htmcas_ajaxsearch .htmcas_searchdiv label{
+    position:absolute;
+    left:-9999px;    
+}
+#htmcas_ajaxsearch .htmcas_searchdiv input{
+    min-width: 200px;
+    padding:5px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+#htmcas_ajaxsearch ul{
+	list-style: none;
+	padding:0 0 10px 0;
+	margin:0;
+	border-bottom:1px solid #CCC;
+}
+
+#htmcas_ajaxsearch ul li{
+	padding-bottom:5px;
+}
+#htmcas_ajaxsearch ul li label{
+	display:inline-block;
+	width:130px;
+	font-weight: bold;
+	line-height:28px;
+}
+
+#htmcas_ajaxsearch ul li input,
+#htmcas_ajaxsearch ul li select{
+	display:inline-block;
+	border:1px solid #CCC;
+}
+
+#htmcas_ajaxsearch h3{
+	padding-top:0px;
+        margin-bottom:5px;
+	font-weight:bold;
+	line-height: 28px;
+	font-size:16px;
+}
+
+
+#htmcas_ajaxsearch #htmcas_select,
+#htmcas_ajaxsearch #htmcas_selected{
+	width:100%;
+	max-height:300px;
+	overflow-y: auto;
+        padding-top:5px;
+}
+#htmcas_ajaxsearch #htmcas_select > div,
+#htmcas_ajaxsearch #htmcas_selected > div{
+	overflow:hidden;
+	border-bottom:1px solid #EFEFEF;
+}
+#htmcas_ajaxsearch #htmcas_select > div > span,
+#htmcas_ajaxsearch #htmcas_selected > div > span{
+	display:block;
+	float:left;
+	width:75%
+}
+
+#htmcas_ajaxsearch #htmcas_select > div > input,
+#htmcas_ajaxsearch #htmcas_selected > div > input{
+	display:block;
+	float:right;
+}
+
+
+
+
+#htmcas_ajaxsearch #htmcas_select .htmcas_post,
+#htmcas_ajaxsearch #htmcas_selected .htmcas_post_rem{
+	line-height:16px;
+	font-size:14px;
+	vertical-align:middle;
+	width:20px;
+	height:20px;	
+	text-align:center;
+	padding:0px;
+	background-color:#5cb85c;
+	border:0;
+	border:1px solid #5cb85c;
+	color:#FFF;
+	border-radius: 50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	cursor:pointer;
+}
+
+#htmcas_ajaxsearch #htmcas_select .htmcas_post:hover,
+#htmcas_ajaxsearch #htmcas_select .htmcas_post:focus{
+	background-color:#449D44;	
+}
+
+#htmcas_ajaxsearch #htmcas_selected .htmcas_post_rem{
+	background-color:#d9534f;
+	border:1px solid #d43f3a;
+}
+
+#htmcas_ajaxsearch #htmcas_selected .htmcas_post_rem:hover,
+#htmcas_ajaxsearch #htmcas_selected .htmcas_post_rem:focus{
+	background-color:#c9302c;	
+	border-color: #ac2925;
+}
+
+#htmcas_ajaxsearch .htmcas_filters{
+	overflow: hidden;
+        border-top:1px solid #CCC;
+        padding-top:10px;
+}
+
+#htmcas_ajaxsearch .htmcas_filter{
+	width:44.5%;
+	padding-right:5%;
+	float:left;
+}
+
+#htmcas_ajaxsearch .htmcas_filter label{
+    font-size:16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#htmcas_ajaxsearch .htmcas_filter > div > div{
+    padding-bottom:3px;
+    padding-top:3px;
+}
+
+#htmcas_ajaxsearch .htmcas_filter:last-child{
+	width:44.5%;
+	padding-right:0%;
+	float:right;
+}
+
+#htmcas_ajaxsearch .mce-footer{
+    padding-top:10px;
+    text-align:right;
+    position:absolute;
+    bottom:0;
+    right:3%;
+    left:0;
+    height:40px;
+}
+
+#htmcas_ajaxsearch .mce-button button{
+
+}
+#TB_ajaxContent{
+    min-width:98%;
+}
+

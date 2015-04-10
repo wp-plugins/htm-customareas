@@ -1,0 +1,24 @@
+/*
+    Front End styling 
+*/
+.htmcaspost{
+    overflow:hidden;
+    padding-bottom:10px;
+    position:relative;
+}
+
+.htmcaspost .htmcaspost_thumbnail{
+    position:absolute;
+    left:0;
+    top:0;   
+    width:150px;
+    height:150px;
+}
+.htmcaspost .htmcaspost_medium{
+    text-align:center;
+    padding-bottom:5px;
+}
+
+.htmcaspost .htmcaspost_thumbnail ~ .htmcaspost_container{
+   padding-left:160px;
+}

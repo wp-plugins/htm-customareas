@@ -1,0 +1,16 @@
+/*
+* Style the custom areas page
+*/
+.htmlcaslink_urlcontainer{
+    padding-top:5px;    
+}
+#htmlcaslink_url{
+    margin-top:5px;
+    padding:3px 8px;
+    font-size:1.7em;
+    line-height:100%;
+    width:100%;
+    outline:0;
+    margin:0;
+    background-color: #FFF;
+}

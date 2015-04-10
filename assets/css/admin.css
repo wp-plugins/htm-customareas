@@ -1,0 +1,122 @@
+/* 
+    Created on : 24-Feb-2015, 14:03:29
+    Author     : oliver.burton
+*/
+#admin-wrap {  
+	width: 80%;
+	padding: 0 3em;
+}
+
+#theme-options-wrap #icon-tools {  
+	position: relative;  top: -10px;
+}
+
+
+#admin-wrap .form_row{
+	border-bottom:1px solid #CCC;
+	padding-left:8px;
+	padding-top:8px;
+	padding-bottom:8px;
+	margin:0;
+}
+
+#admin-wrap .form_row.odd{
+	background:#FFF;
+}
+
+#admin-wrap .form_row label{
+	display:inline-block;
+	width:150px;
+	font-weight:bold;
+}
+
+#admin-wrap .form_row label + div{
+	display:inline-block;
+}
+
+#admin-wrap input[type="text"], 
+#admin-wrap textarea {  
+	padding: .7em;
+}
+
+/* Tab Styles */
+#tabs > ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	position:relative;
+	z-index:99;
+}
+#tabs > ul li{
+	display:inline-block;
+	padding:0;	
+	margin:0;
+	border-top-left-radius:5px;
+	-moz-border-top-left-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	
+	border-top-right-radius:5px;
+	-moz-border-top-right-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	background:#F9F7F7;
+	border:1px solid #CCC;
+	
+}
+
+#tabs > ul li a{
+	display:block;
+	padding:5px 10px;
+	text-decoration: none;
+}
+
+#tabs > ul li:hover, 
+#tabs > ul li:focus,
+#tabs > ul li.ui-state-active{
+	background:#FFF;
+	border-bottom:1px solid #FFF;
+}
+
+#tabs > ul li a:hover, 
+#tabs > ul li a:focus,
+#tabs > ul li.ui-state-active a{
+	text-decoration: none;
+}
+
+.thetab{
+	position:relative;
+	z-index:97;
+	top:-1px;
+	background:#FFF;
+	border:1px solid #CCC;
+	margin:0;
+	padding:10px;
+	border-bottom-left-radius:5px;
+	-moz-border-bottom-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	
+	border-top-right-radius:5px;
+	-moz-border-top-right-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	
+	border-bottom-right-radius:5px;
+	-moz-border-bottom-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+}
+
+
+#saved-options{
+	padding:10px;
+	margin:10px;
+	border:1px solid #d6e9c6;
+	background:#dff0d8;
+	color:#3c763d;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+@media(max-width:480px){
+	#admin-wrap .form_row label{
+		width:100%;
+		margin-bottom:5px;
+	}
+}
