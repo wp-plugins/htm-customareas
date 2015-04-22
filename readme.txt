@@ -3,7 +3,7 @@ Contributors: oliverhtml
 Donate link: http://www.htmlstudio.co.uk/component/custom-areas-for-wordpress/
 Tags: custom field, custom fields, custom post type, administrator, post, post types, content block, wysiwig
 Requires at least: 3.5
-Tested up to: 4.1.1
+Tested up to: 4.1.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
